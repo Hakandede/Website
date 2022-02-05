@@ -1,0 +1,10 @@
+body {background-color: rgb(211, 200, 200);}
+h1{
+    font-size: 380%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1:hover{
+    transition: 0.8;
+    font-size: 385%;
+    color: rgb(179, 179, 179);
+}
