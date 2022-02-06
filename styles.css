@@ -6,7 +6,7 @@ h1{
     font-size: 3.8vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.aa
+div.aa
 {
     position:absolute;
     right: 90px;
@@ -18,6 +18,12 @@ h1:hover{
     cursor:none;
     transition: 1;
     color: rgb(179, 179, 179);
+}
+#svgg:hover
+{
+    cursor:none;
+    transition: 0.3;
+    fill:rgb(179, 179, 179)
 }
 
 ul
