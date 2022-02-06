@@ -1,24 +1,22 @@
-html
-{
+html{
     scroll-behavior: smooth;
 }
-body {background-color: rgb(53, 53, 53);}
-.baslik
-{
+body {
+    background-color: rgb(53, 53, 53);
+}
+.baslik{
     position: absolute;
     right: 80px;
     bottom: 0px;
     font-size: 3.8vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h1.baslik:hover
-{
+h1.baslik:hover{
     cursor: none;
     transition: 0.70s;
     color: rgb(179, 179, 179);
 }
-div.sayfa#main
-{
+div.sayfa#main{
     position: flex;
     justify-content: center;
     height: 100vh;
@@ -30,8 +28,7 @@ div.hakanuludag{
     height: 150px;
     width: 40%;
 }
-div.sayfa#blog
-{  
+div.sayfa#blog{  
     padding-top: 5vh;
     padding-bottom: 8vh;
     position: flex;
@@ -39,8 +36,7 @@ div.sayfa#blog
     font-size: 0.60vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-div.footer
-{
+div.footer{
     text-align: center;
     font-size: 0.60vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -57,12 +53,17 @@ div.projeler{
     padding-left: 4vw;
     position: relative;
 }
-#svgg:hover
-{
+#svgg:hover{
     cursor:none;
     transition: 0.40s;
     fill:rgb(226, 226, 226)
 }
-ul { list-style-type: none; position:absolute; right: 12%; top: 65%; }
-li { float: left; }
-.icons { width: 25px; cursor: none; }
+ul {
+     list-style-type: none; position:absolute; right: 12%; top: 65%;
+}
+li {
+     float: left; 
+}
+.icons {
+     width: 25px; cursor: none;
+}
