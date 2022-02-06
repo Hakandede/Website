@@ -1,10 +1,36 @@
-body {background-color: rgb(211, 200, 200);}
+body {background-color: rgb(53, 53, 53);}
 h1{
-    font-size: 380%;
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    font-size: 3.8vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.aa
+{
+    position:absolute;
+    right: 90px;
+    top: 65%;
+    height: 50px;
+    width: 50%;
+}
 h1:hover{
-    transition: 0.8;
-    font-size: 385%;
+    cursor:none;
+    transition: 1;
     color: rgb(179, 179, 179);
 }
+
+ul
+{
+    list-style-type: none;
+    position: absolute;
+    right: 80px;
+    top: 40%;
+}
+li
+{
+    float: left;
+
+}
+.icons
+{width: 25px;}
