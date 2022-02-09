@@ -1,20 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 html{
     scroll-behavior: smooth;
 }
 body {
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(44, 44, 44); 
+     animation: backgroundanim 3s;
+  
 }
-.baslik{
+@keyframes backgroundanim {
+    from {background-color: rgb(117, 117, 117);}
+    to {background-color: rgb(44, 44, 44); }
+    }
+@keyframes titleanim {
+    from {color: rgb(255, 255, 255);}
+    to {color: rgb(0, 0, 0); }
+}
+@keyframes svganim {
+    from {fill:rgb(255, 255, 255);}
+    to {fill:rgb(0, 0, 0); }
+}
+ 
+h1.baslik{
+    white-space: nowrap;
+    color: rgb(0, 0, 0);
+    animation: titleanim 2s;
     position: absolute;
     right: 80px;
-    bottom: 0px;
+    bottom: 50%;
     font-size: 3.8vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 h1.baslik:hover{
     cursor: none;
     transition: 0.70s;
-    color: rgb(179, 179, 179);
+    color: rgb(224, 224, 224);
 }
 div.sayfa#main{
     position: flex;
@@ -25,33 +48,8 @@ div.hakanuludag{
     position: absolute;
     right: 0px;
     top: 55vh;
-    height: 150px;
+    height: 19%;
     width: 40%;
-}
-div.sayfa#blog{  
-    padding-top: 5vh;
-    padding-bottom: 8vh;
-    position: flex;
-    background-color: rgb(189, 189, 189);
-    font-size: 0.60vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-div.footer{
-    text-align: center;
-    font-size: 0.60vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.sayfa#info{
-    text-align: center;
-    position: relative;
-    left: 30%;
-    word-wrap: break-word;
-    width: 40vw;
-    font-size: 0.90vw;
-}
-div.projeler{   
-    padding-left: 4vw;
-    position: relative;
 }
 #svgg:hover{
     cursor:none;
@@ -59,11 +57,74 @@ div.projeler{
     fill:rgb(226, 226, 226)
 }
 ul {
-     list-style-type: none; position:absolute; right: 12%; top: 65%;
+    cursor: none;
+    top: 40%;
+    left: 14%;
+    width: 70%;
+    height: 55%;
+     list-style-type: none;
+      position: relative;
 }
 li {
-     float: left; 
+    display: flex;
+    justify-content: center;
+    padding-right: 8%;
+    width: 10%;
+    height: 80%;
+     float:right;
 }
-.icons {
-     width: 25px; cursor: none;
+#svgg{
+    animation: svganim 3s;
+}
+.iconslink{
+    cursor: none;
+}
+div.sayfa#blog{  
+    padding-top: 5vh;
+    padding-bottom: 100vh;
+    position: relative;
+    background-color: rgb(189, 189, 189);
+    font-size: 0.60vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sayfa#info{
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    word-wrap: break-word;
+    width: 50%;
+    font-size: 0.90vw;
+}
+#infocizgi{
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    width: 50%;
+    height: 5%;
+}
+.projeler#proje1{  
+    border: 4px solid grey;
+    border-radius: 10px;
+    width: 90%;
+    height: 30%;
+    padding: 2vh;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    font-size: 1vw;
+
+}
+
+.projebaslik{
+    padding-right: 5vw;
+    padding-bottom: 2vh;
+   text-decoration: underline;
+}
+.projetext{
+    width: 70%;
+}
+div.footer{
+    text-align: center;
+    font-size: 0.80vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
