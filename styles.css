@@ -103,8 +103,6 @@ div.sayfa#blog{
     height: 5%;
 }
 .projeler#bir{  
-    border: 20px ridge rgb(163, 163, 163);
-    border-radius: 5px;
     width: 90%;
     height: 30%;
     padding: 2vh;
