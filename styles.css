@@ -112,6 +112,13 @@ div.sayfa#blog{
     font-size: 1vw;
 
 }
+#tarih{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    opacity: 0.5;
+    font-size: 1vw;
+}
 
 .bir#baslik{
     padding-right: 5vw;
