@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+#blob
+{
+    z-index: 999;
+}
 html{
     scroll-behavior: smooth;
 }
