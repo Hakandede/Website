@@ -65,6 +65,19 @@
     <div id="secondpage">
         <hr>
         <div id="project">
+            <p><small>20.12.2021 - to date</small></p>
+            <h1>AWS VPN Wrapper</h1>
+            <hr>
+            <p>My OpenVPN server runs on an AWS EC2 instance, and this Bash script is the one command I use to manage it.
+                It started as a cost saver: start the server only when I need the VPN, retry through AWS capacity errors,
+                rewrite the OpenVPN profile and update the Cloudflare DNS record with the new IP, then stop it again.
+                When the same server started hosting this website it moved to running 24/7 behind an Elastic IP, which
+                removed the DNS and profile rewrites. It also logs in with EC2 Instance Connect, pushing a throwaway SSH
+                key that is valid for 60 seconds instead of keeping a long-lived key pair.
+                <a href="https://github.com/Hakandede/AWSEC2" target="_blank">github page</a></p>
+        </div>
+        <hr>
+        <div id="project">
             <p><small>24.02.2022</small></p>
             <h1>Dice Fight!</h1>
             <hr>
