@@ -82,6 +82,16 @@ h1.baslik:hover{
     color: rgb(224, 224, 224);
 }
 
+p.rol{
+    position: absolute;
+    margin-top: 20vh;
+    width: 100vw;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 #svgg:hover{
     transition: 0.40s;
     fill:rgb(226, 226, 226)
